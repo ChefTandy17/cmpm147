@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Experiment X - Subject/Topic</title>
+	<title>Experiment 1 - Generative Methods/Getting Started</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
 	<meta charset="UTF-8" />
@@ -25,18 +25,18 @@
 	<!-- Use me for a JavaScript OOP Project -->
 	<script type="text/javascript" src="./js/project.js" DEFER></script>
 	<!-- Use me for a p5.js project -->
-	<script type="text/javascript" src="./js/sketch.js" DEFER></script>
+	<!-- <script type="text/javascript" src="./js/sketch.js" DEFER></script> -->
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/experiment.css -->
 	<main id="content">
 		<section>
 
-			<h1>Experiment X - Subject/Topic</h1>
+			<h1>Experiment 1 - Generative Methods/Getting Started</h1>
 
 			<div class="minor-section">
-				<div id="canvas-container">
-					<!-- canvas will be added here -->
+				<div style="font-family: fantasy; border: thin solid gray; padding: 1em; margin: 1em; box-shadow: 2px 2px 5px gray; background: #ffe;"
+					 id="box"></div>
 				</div>
                 <div class="fullscreen-box">
                     <button id="fullscreen">Fullscreen</button>
@@ -45,17 +45,17 @@
 
 			<div class="minor-section">
 				<h2>Description</h2>
-				<p>What are you trying to acomplish with this experiment?</p>
+				<p>This experiment produces a very short story in which when refreshing the page would create random locations and names?</p>
 			</div>
 
 			<div class="minor-section">
 				<h2>Technical</h2>
-				<p>Describe in detail what you did technically and how it works?</p>
+				<p>The generate functions uses one of the variables in the arrays to select a random string along with finding a placeholder. The replacer function replaces placeholders in the template and insert the randomly selected string. The process continues until there isn't any avaliable words in the story</p>
 			</div>
 
 			<div class="minor-section">
 				<h2>Reflection</h2>
-				<p>Each person that worked on the code should reflect on the process, the difficulties, and the successes of the experiment.</p>
+				<p>It was easy to observe how the generative stories are created in Glitch when it comes with the specific words are being replaced or are placeholders in the story. It was harder to understand the functions of the replacer, generator, and how a slot pattern works.</p>
 			</div>
 
 		</section>
