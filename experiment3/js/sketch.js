@@ -1,6 +1,6 @@
-// sketch.js - purpose and description here
-// Author: Your Name
-// Date:
+// sketch.js - creates a generative world
+// Author:Tyvin Tandy
+// Date: 4/20/25
 
 // Here is how you might set up an OOP p5.js project
 // Note that p5.js looks for a file called sketch.js
