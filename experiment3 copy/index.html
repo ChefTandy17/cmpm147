@@ -2,7 +2,7 @@
 <html>
 <head>
     <!-- This title is used for tabs and bookmarks -->
-    <title>Experiment 3 - Alternate Worlds (Overworld)</title>
+    <title>Experiment 3 - Alternate Worlds (Dungeon)</title>
 
     <!-- Use UTF character set, a good idea with any webpage -->
     <meta charset="UTF-8" />
@@ -29,7 +29,7 @@
     <main id="content">
         <section>
 
-            <h1>Experiment 3 - Alternate Worlds (Overworld)</h1>
+            <h1>Experiment 3 - Alternate Worlds (Dungeon)</h1>
 
             <div class="minor-section" style="display: flex; gap: 20px; align-items: flex-start;">
                 <div id="canvasContainer" style="flex-shrink: 0;"></div>
@@ -52,17 +52,17 @@
 
             <div class="minor-section">
                 <h2>Description</h2>
-                <p>Randomly generates a different world when choosing a different seed</p>
+                <p>Randomly generates a different dunegon when choosing a different seed</p>
             </div>
 
             <div class="minor-section">
                 <h2>Technical</h2>
-                <p>It uses perlin noise to create the biomes, randomness() to create random tiles in the biomes like trees and dunes, millis() and arrays for water animations, and autotiling to indicate a changing biome</p>
+                <p>It uses randomness() when it comes with adjusting the width and height and chest placements, placing the hallways, and the amount of rooms that would be in the dungeon </p>
             </div>
 
             <div class="minor-section">
                 <h2>Reflection</h2>
-                <p>For the overworld, autotiling was challenging to be done successfully, and there were a few seeds that shows some hiccups of the autotiling</p>
+                <p>For the dungeon world, creating randomness for the width and height of the dungeons, and placements weren't too challenging. Connecting hallways required a lot of researching and generative AI to fully understand the basics and the structure of a generative dungeon</p>
             </div>
 
         </section>
